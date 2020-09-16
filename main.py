@@ -4,8 +4,8 @@ gradepoint1 = 0.0
 gradepoint2 = 0.0
 gradepoint3 = 0.0
 
-part1 = input("Enter course #1 letter grade: ");
-credit1 = int(input("Enter course #1 credit value: "))
+part1 = input("Enter your course 1 letter grade: ");
+credit1 = int(input("Enter your course 1 credit: "))
 if part1 == "A":
   gradepoint1 = 4.0
 elif part1 == "A-":
@@ -26,10 +26,10 @@ elif part1 == "F":
   gradepoint1 = 0.0
 else:
   gradepoint1 = 0.0
-print(f"Grade point for course #1 is: {gradepoint1}")
+print(f"Grade point for course 1 is: {gradepoint1}")
 
-part2 = input("Enter course #2 letter grade: ");
-credit2 = int(input("Enter course #2 credit value: "))
+part2 = input("Enter your course 2 letter grade: ");
+credit2 = int(input("Enter your course 2 credit: "))
 if part2 == "A":
   gradepoint2 = 4.0
 elif part2 == "A-":
@@ -50,10 +50,10 @@ elif part2 == "F":
   gradepoint2 = 0.0
 else:
   gradepoint2 = 0.0
-print(f"Grade point for course #2 is: {gradepoint2}")
+print(f"Grade point for course 2 is: {gradepoint2}")
 
-part3 = input("Enter course #3 letter grade: ");
-credit3 = int(input("Enter course #3 credit value: "))
+part3 = input("Enter your course 3 letter grade: ");
+credit3 = int(input("Enter your course 3 credit value: "))
 if part3 == "A":
   gradepoint3 = 4.0
 elif part3 == "A-":
@@ -74,7 +74,7 @@ elif part3 == "F":
   gradepoint3 = 0.0
 else:
   gradepoint3 = 0.0
-print(f"Grade point for course #3 is: {gradepoint3}")
+print(f"Grade point for course 3 is: {gradepoint3}")
 
 GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3)  
 
