@@ -53,7 +53,7 @@ else:
 print(f"Grade point for course 2 is: {gradepoint2}")
 
 part3 = input("Enter your course 3 letter grade: ");
-credit3 = int(input("Enter your course 3 credit value: "))
+credit3 = int(input("Enter your course 3 credit: "))
 if part3 == "A":
   gradepoint3 = 4.0
 elif part3 == "A-":
